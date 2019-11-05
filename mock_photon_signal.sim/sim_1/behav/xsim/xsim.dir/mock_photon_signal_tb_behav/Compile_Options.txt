@@ -1,0 +1,1 @@
+-wto "692a7de9f6314f0a8b6a6845f2b08232" --incr --debug "typical" --relax --mt "8" -L "blk_mem_gen_v8_4_3" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "mock_photon_signal_tb_behav" "xil_defaultlib.mock_photon_signal_tb" "xil_defaultlib.glbl" -log "elaborate.log" 

@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../mock_photon_signal.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" \
+
+sv xil_defaultlib  \
+"../../../../mock_photon_signal.srcs/sources_1/new/mock_photon_signal.sv" \
+"../../../../mock_photon_signal.srcs/sim_1/new/mock_photon_signal_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
